@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Site provisoriamente de testes">
+    <meta name="author" content="Gabriel da Silva Dalacorte">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link rel="icon "href="img/icon.png">
+    
+    <title> I-Site </title>
+</head>
+<body>
+    <header class="cabecalho container"> 
+        <a href="index.html">
+            <h1 class="logo img-zoom"> I-Site </h1>
+        </a>
+        <button class="btn-menu bg-gradient"> 
+            <i class="fas fa-bars fa-lg"></i> 
+        </button>
+        <nav class="menu">
+            <a class="btn-close"> <i class="fa fa-times"></i></a>
+            <ul>
+               <li><a href="#">Inicio</a ></li>
+               <li><a href="#">Clientes</a></li>
+               <li><a href="#">Quem somos</a></li>
+               <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="banner container">
+        <div class="title">
+            <h2>NOMEEEEE</h2>
+            <h3>........</h3>
+        </div>
+        <div class="buttons">
+            <button class="btn btn-cadastrar bg-white radius"> Peça Agora! <i class="fa fa-arrow-circle-right"></i></button>
+            <button class="btn btn-sobre bg-black radius"> Contato <i class="fa fa-question-circle"></i></button>
+        </div>
+    </div>
+    <main class="servicos container">
+        <article class="servico bg-white radius img-zoom">
+            <a href="http://dalacortearts.000webhostapp.com/"><img src="./css/img/layout1.png" alt="Campanhas Publicitarias"></a>
+            <div class="inner">
+                <a href="#">1º Layout - Divulgação </a>
+                <h4>Layout de site para divulgações</h4>
+                <p>Este layout foi criado especialmente para divulgações. Contendo galeria de fotos, sincronizações com redes sociais, como: Facebook, instagram, twitter e outros.
+		</p>
+            </div>
+        </article>
+        <article class="servico bg-white radius img-zoom">
+            <a href="../E-commerce/index.html"><img src="./css/img/layout2.png" alt="Marketing Digital"></a>
+            <div class="inner">
+                <a href="#">2º Layout - E-commerce</a>
+                <h4>Layout de site para E-commerce</h4>
+                <p>Este layout contêm sistemas de vendas(loja), galeria de fotos, sistemas de cadastro e login de usuários e galerias de fotos com produtos.
+                </p>
+            </div>
+        </article>
+        <article class="servico bg-white radius img-zoom">
+            <a href="#"><img src="./css/img/layout3.jpg" alt="Criação de Sites"></a>
+            <div class="inner">
+                <a href="#">3º EM BREVE</a>
+                <h4>----- EM BREVE -----</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                    labore et dolore magna aliqua.
+                </p>
+            </div>
+        </article>
+    </main>
+    <!-- Newsletter-->
+    <section class="newsletter container bg-black">
+        <h2> Peça seu site, Agora! </h2>
+        <h3> Quer que entramos em contato? Informe seus contatos. </h3>
+        <form action="https://formspree.io/f/xaylqwvz" method="POST">
+            <input class="bg-black radius" type="email" name="email" placeholder="Seu email">
+            <input class="bg-black radius" type="text" name="wpp" placeholder="Digite seu Whatsapp">
+            <button class="bg-white radius"> Enviar </button>
+        </form>
+    </section>
+    <!--RODAPE-->
+    <footer class="rodape container bg-gradient">
+        <div class="social-icons">
+            <!---->
+            <!--<a href="#"><i class="fab fa-facebook"></i></a>-->
+            <a href="https://twitter.com/gbigodon"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/gbigodon/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/gabriel-nunes-da-silva-4173571b8/"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p class="copyright">
+            Copyright (c) Gabriel-Nunes 2020. Todos os direitos reservados.
+        </p>
+    </footer>
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+    crossorigin="anonymous"></script>    
+    <script>
+        $(".btn-menu").click(function(){
+            $(".menu").show();
+        });
+        $(".btn-close").click(function(){
+            $(".menu").hide();
+        });
+    </script>
+</body>
+</html>
